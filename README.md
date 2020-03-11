@@ -9,13 +9,13 @@ The Proxy creates a Server Socket which will wait for connections on port 8032. 
  Steps to Run the proxy. 
 
     (Both the files ProxyServer.java and RequestThreadHandler.java must be in the same folder)
- 2. Type Command: javac ProxyServer.java 
+ 1. Type Command: javac ProxyServer.java 
 	(To Compile ProxyServer )
- 3. Type Command: javac RequestThreadHandler.java 
+ 2. Type Command: javac RequestThreadHandler.java 
 	(To Compile RequestThreadHandler )
- 4. Type Command: java ProxyServer 
+ 3. Type Command: java ProxyServer 
 	(Now run file ProxyServer.java )
- 5. Proxy will start at port 8032
+ 4. Proxy will start at port 8032
 
  To test the proxy we are using remote desktop
  1. Open Firefox (https is not working on chrome)
